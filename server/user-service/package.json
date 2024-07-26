@@ -35,7 +35,7 @@
     "@nestjs/cqrs": "^10.2.6",
     "@nestjs/jwt": "^10.2.0",
     "@nestjs/microservices": "^10.3.0",
-    "@nestjs/platform-express": "^10.3.0",
+    "@nestjs/platform-express": "^10.3.10",
     "@nestjs/serve-static": "^4.0.0",
     "@prisma/client": "^5.8.1",
     "amqp-connection-manager": "^4.1.14",
