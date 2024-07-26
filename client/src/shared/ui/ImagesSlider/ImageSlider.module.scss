@@ -1,0 +1,22 @@
+.slider {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+  .item {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    user-select: none;
+
+    &.default {
+      background-size: auto 125%;
+    }
+  }
+
+  li {
+    width: 100%;
+    margin: 0 2px;
+    list-style: none;
+  }
+}

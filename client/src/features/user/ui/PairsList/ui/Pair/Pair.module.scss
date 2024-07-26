@@ -1,0 +1,57 @@
+.pair {
+  width: 244px !important;
+  height: 305px !important;
+  object-fit: cover;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.1s;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    scale: 1.01;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pair {
+    height: 275px !important;
+    width: 220px !important;
+  }
+}
+
+@media (max-width: 950px) {
+  .pair {
+    height: 240px !important;
+    width: 192px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .pair {
+    height: 275px !important;
+    width: 220px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .pair {
+    height: 240px !important;
+    width: 192px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .pair {
+    height: 200px !important;
+    width: 160px !important;
+  }
+}
+
+@media (max-width: 410px) {
+  .pair {
+    height: 180px !important;
+    width: 144px !important;
+  }
+}
